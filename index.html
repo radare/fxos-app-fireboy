@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=false" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+
+<title>FireBoy</title>
+<!--
+
+ JSGB v0.02 - a JavaScript Nintendo GameBoy Emulator
+ Copyright (C) 2009 Pedro Ladaria <Sonic1980 at Gmail dot com>
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ version 2 as published by the Free Software Foundation.
+ The full license is available at http://www.gnu.org/licenses/gpl.html
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+-->
+<script src="jsgb_files/toolbox.js" type="application/x-javascript"></script>
+<script src="jsgb_files/scrollbar.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_003.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_004.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_009.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_002.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_005.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_006.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_007.js" type="application/x-javascript"></script>
+<script src="jsgb_files/jsgb_008.js" type="application/x-javascript"></script>
+<link href="jsgb_files/jsgb.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://codebase.es/jsgb/favicon.gif">
+</head>
+<body>
+
+<div class="Cart" id="Cart">
+<center>
+<div id="CART" width="320px" height="200px"
+style="background-image:url('cart.png');background-repeat:no-repeat; background-size:320px 320px;background-color:#e5e1d8;left:100px;width:320px;height:350px;padding-top:180px;user-select:none;border-left:70px;top:0px"
+>
+mario.gb
+</div>
+</center>
+</div>
+<div class="C">
+
+<canvas style="width: 320px; height: 288px;" id="LCD" width="160" height="144">
+</canvas>
+<br />
+<div id="STATUS"></div>
+<center>
+<div id="BUTTONS" width="320px" height="200px" onmousedown="alert('pop')"
+style="background-image:url('buttons.jpg');background-repeat:no-repeat; background-size:320px 200px;background-color:#e5e1d8;left:100px;width:320px;height:220px"
+>
+</div>
+</center>
+<script src="main.js"> </script>
+
+</div></body></html>

@@ -1,0 +1,15 @@
+{
+    "name": "FireBoy",
+    "package_path" : "http://ffos.lolcathost.org/fireboy/fireboy.zip",
+    "version": "1",
+    "developer": {
+        "name": "pancake",
+        "url": "http://lolcathost.org"
+    },
+    "icons": {
+      "32": "/icon32.png",
+      "64": "/icon64.png",
+      "128": "/icon128.png",
+      "256": "/icon256.png"
+    }
+}

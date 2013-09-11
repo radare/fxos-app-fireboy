@@ -1,0 +1,23 @@
+{
+  "name": "FireBoy",
+  "package_path" : "http://ffos.lolcathost.org/fireboy/fireboy.zip",
+  "description": "Javascript GameBoy emulator",
+  "icons": {
+    "256": "/icon256.png",
+    "128": "/icon128.png",
+    "64": "/icon64.png",
+    "32": "/icon32.png"
+  },
+  "developer": {
+    "name": "pancake",
+    "url": "http://nimiali.ffos.lolcathost.org/"
+  },
+  "size": 1464787,
+  "orientation": ["portrait"],
+  "default_locale": "en",
+  "type": "privileged",
+  "installs_allowed_from": ["*"],
+  "permissions": {
+    "systemXHR": {}
+  }
+}
